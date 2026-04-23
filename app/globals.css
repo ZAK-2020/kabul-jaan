@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+@theme {
+  --color-kj-bg: var(--color-bg);
+  --color-kj-surface: var(--color-surface);
+  --color-kj-surface-raised: var(--color-surface-raised);
+  --color-kj-surface-hover: var(--color-surface-hover);
+  --color-kj-text: var(--color-text);
+  --color-kj-muted: var(--color-muted);
+  --color-kj-border: var(--color-border);
+  --color-kj-accent: var(--color-accent);
+  --color-kj-accent-hover: var(--color-accent-hover);
+  --color-kj-accent-ink: var(--color-accent-ink);
+  --color-kj-gold: var(--color-gold);
+  --color-kj-terracotta: var(--color-terracotta);
+  --color-kj-teal: var(--color-teal);
+  --color-kj-pattern: var(--color-pattern);
+  --font-display: Georgia, "Times New Roman", serif;
+  --font-body: Inter, "Segoe UI", Arial, sans-serif;
+  --font-mono: "Cascadia Code", "Consolas", monospace;
+  --radius-sm: 2px;
+  --radius-md: 4px;
+  --radius-lg: 8px;
+  --radius-pill: 999px;
+  --ease-kj-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-kj-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+:root {
+  /* Edit this block to retheme the whole site. */
+  --theme-bg: #000000;
+  --theme-surface: #080808;
+  --theme-surface-raised: #111111;
+  --theme-surface-hover: #1d1d1d;
+  --theme-text: #ffffff;
+  --theme-muted: rgba(255, 255, 255, 0.66);
+  --theme-border: rgba(192, 138, 46, 0.38);
+  --theme-pattern: rgba(255, 255, 255, 0.88);
+  --theme-accent: #f2a83b;
+  --theme-accent-hover: #f5bc5e;
+  --theme-accent-ink: #000000;
+  --theme-gold: #c08a2e;
+  --theme-terracotta: #c5532b;
+  --theme-teal: #1f4a4a;
+
+  /* Semantic colors consumed by Tailwind and component CSS. */
+  --color-bg: var(--theme-bg);
+  --color-surface: var(--theme-surface);
+  --color-surface-raised: var(--theme-surface-raised);
+  --color-surface-hover: var(--theme-surface-hover);
+  --color-text: var(--theme-text);
+  --color-muted: var(--theme-muted);
+  --color-border: var(--theme-border);
+  --color-pattern: var(--theme-pattern);
+  --color-accent: var(--theme-accent);
+  --color-accent-hover: var(--theme-accent-hover);
+  --color-accent-ink: var(--theme-accent-ink);
+  --color-cta-bg: var(--theme-accent);
+  --color-cta-ink: var(--theme-accent-ink);
+  --color-gold: var(--theme-gold);
+  --color-terracotta: var(--theme-terracotta);
+  --color-teal: var(--theme-teal);
+  --color-nav-bg: rgba(0, 0, 0, 0.86);
+  --color-image-overlay: rgba(0, 0, 0, 0.18);
+  --color-hero-vignette-inner: rgba(0, 0, 0, 0.03);
+  --color-hero-vignette-mid: rgba(0, 0, 0, 0.58);
+  --shadow-nav: 0 12px 40px rgba(0, 0, 0, 0.34);
+  --border-hairline: 1px solid var(--color-border);
+  --border-hairline-strong: 1px solid rgba(242, 168, 59, 0.65);
+
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  background: var(--color-bg);
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: var(--font-manrope), system-ui, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(242, 168, 59, 0.32);
+  color: var(--color-text);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  [data-kj-motion] {
+    transform: none !important;
+  }
+}
