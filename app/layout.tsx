@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 import { MobileContactBar } from "@/components/mobile-contact-bar";
 import { SiteFooter } from "@/components/site-footer";
@@ -137,6 +138,7 @@ export default function RootLayout({
         {children}
         <SiteFooter />
         <MobileContactBar />
+        <SpeedInsights />
       </body>
     </html>
   );
