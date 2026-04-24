@@ -33,11 +33,12 @@ export const businessInfo = {
   phoneDisplay: "0336 8156071",
   phoneHref: "tel:+923368156071",
   whatsappHref: "https://wa.me/923368156071",
-  address: "6X7W+44G, Hudda, Quetta, Pakistan",
+  address:
+    "Airport Road, near Honda Point, Airport Road, Quetta, 87300, Pakistan",
   directionsHref:
-    "https://www.google.com/maps/search/?api=1&query=Kabul%20Jaan%20Restaurant%206X7W%2B44G%20Hudda%20Quetta%20Pakistan",
+    "https://www.google.com/maps/search/?api=1&query=Kabul%20Jaan%20Restaurant%202nd%20branch%20Airport%20Road%20near%20Honda%20Point%20Quetta%2087300%20Pakistan",
   mapEmbedSrc:
-    "https://www.google.com/maps?q=Kabul%20Jaan%20Restaurant%206X7W%2B44G%20Hudda%20Quetta%20Pakistan&output=embed",
+    "https://www.google.com/maps?q=Kabul%20Jaan%20Restaurant%202nd%20branch%20Airport%20Road%20near%20Honda%20Point%20Quetta%2087300%20Pakistan&output=embed",
   googleRating: "4.0",
   googleReviewCount: "819"
 };

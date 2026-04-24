@@ -1,4 +1,11 @@
-import { ArrowRight, Camera, MapPin, MessageCircle, Phone } from "lucide-react";
+import {
+  ArrowRight,
+  BriefcaseBusiness,
+  Camera,
+  MapPin,
+  MessageCircle,
+  Phone
+} from "lucide-react";
 import Link from "next/link";
 import { businessInfo, contactDetails, hours } from "@/lib/site-data";
 
@@ -6,7 +13,7 @@ export function SiteFooter() {
   return (
     <footer className="relative overflow-hidden bg-kj-bg">
       <div className="relative mx-auto max-w-7xl px-4 py-16 md:px-8 md:py-24">
-        <div className="grid gap-10 md:grid-cols-[1.2fr_1fr_1fr]">
+        <div className="grid gap-10 md:grid-cols-[1.1fr_1fr_0.8fr_1fr]">
           <div>
             <p className="font-display text-4xl leading-tight text-kj-text">
               Kabul Jaan
@@ -50,6 +57,27 @@ export function SiteFooter() {
                 </div>
               ))}
             </dl>
+          </div>
+
+          <div>
+            <h2 className="mb-5 text-xs font-semibold uppercase tracking-[0.18em] text-kj-accent">
+              Careers
+            </h2>
+            <Link
+              href="/careers"
+              className="group block border-l border-kj-border pl-5 transition-colors duration-200 hover:border-kj-accent"
+            >
+              <BriefcaseBusiness
+                className="mb-3 text-kj-accent transition-transform duration-200 group-hover:translate-x-1"
+                size={20}
+              />
+              <span className="block font-display text-2xl text-kj-text">
+                Jobs coming soon
+              </span>
+              <span className="mt-3 block text-sm leading-6 text-kj-muted">
+                Future kitchen, service, and floor roles will be shared here.
+              </span>
+            </Link>
           </div>
         </div>
 

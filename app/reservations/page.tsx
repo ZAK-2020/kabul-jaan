@@ -93,7 +93,7 @@ export default function ReservationsPage() {
                     Kabul Jaan Restaurant
                   </p>
                   <p className="mt-2 text-sm uppercase tracking-[0.18em] text-kj-accent-hover">
-                    Hudda, Quetta
+                    Airport Road, near Honda Point
                   </p>
                 </div>
               </div>

@@ -57,7 +57,7 @@ export function ReviewsSection() {
                   Location
                 </p>
                 <p className="mt-3 font-display text-2xl leading-tight text-kj-text">
-                  Hudda, Quetta.
+                  Airport Road, Quetta.
                 </p>
               </div>
             </div>

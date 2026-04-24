@@ -92,8 +92,9 @@ const restaurantJsonLd = {
   acceptsReservations: true,
   address: {
     "@type": "PostalAddress",
-    streetAddress: "6X7W+44G, Hudda",
+    streetAddress: "Airport Road, near Honda Point",
     addressLocality: "Quetta",
+    postalCode: "87300",
     addressCountry: "PK"
   },
   telephone: "+92 336 8156071",
