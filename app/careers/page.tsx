@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
-import Link from "next/link";
-import { ArrowRight, BriefcaseBusiness, MessageCircle } from "lucide-react";
+import { BriefcaseBusiness } from "lucide-react";
 import { Reveal } from "@/components/reveal";
 import { SectionIntro } from "@/components/section-intro";
-import { businessInfo } from "@/lib/site-data";
 
 export const metadata: Metadata = {
   title: "Careers",
@@ -35,22 +33,6 @@ export default function CareersPage() {
                 food and family dining.
               </p>
             </SectionIntro>
-            <div className="mt-9 flex flex-col gap-3 sm:flex-row">
-              <Link
-                href={businessInfo.whatsappHref}
-                className="inline-flex h-12 items-center justify-center gap-2 rounded-[4px] bg-[#25D366] px-5 text-sm font-semibold uppercase tracking-[0.08em] text-black transition-[background,transform] duration-200 hover:-translate-y-0.5 hover:bg-[#1ebe5d]"
-              >
-                <MessageCircle size={18} />
-                WhatsApp
-              </Link>
-              <Link
-                href="/contact"
-                className="inline-flex h-12 items-center justify-center gap-2 rounded-[4px] border border-kj-accent px-5 text-sm font-semibold uppercase tracking-[0.08em] text-kj-accent transition-colors duration-200 hover:bg-kj-accent/10"
-              >
-                Contact
-                <ArrowRight size={18} />
-              </Link>
-            </div>
           </Reveal>
 
           <Reveal delay={0.08}>
@@ -61,8 +43,7 @@ export default function CareersPage() {
               </p>
               <p className="mt-5 text-base leading-7 text-kj-muted">
                 When positions open, this page will list available roles,
-                requirements, and how to apply. For early interest, message the
-                restaurant team directly.
+                requirements, and how to apply.
               </p>
             </div>
           </Reveal>

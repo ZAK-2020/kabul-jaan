@@ -36,9 +36,9 @@ export const businessInfo = {
   address:
     "Airport Road, near Honda Point, Airport Road, Quetta, 87300, Pakistan",
   directionsHref:
-    "https://www.google.com/maps/search/?api=1&query=Kabul%20Jaan%20Restaurant%202nd%20branch%20Airport%20Road%20near%20Honda%20Point%20Quetta%2087300%20Pakistan",
+    "https://www.google.com/maps/search/?api=1&query=7X3F%2B47%2C%20Quetta%2C%20Pakistan",
   mapEmbedSrc:
-    "https://www.google.com/maps?q=Kabul%20Jaan%20Restaurant%202nd%20branch%20Airport%20Road%20near%20Honda%20Point%20Quetta%2087300%20Pakistan&output=embed",
+    "https://www.google.com/maps?q=7X3F%2B47%2C%20Quetta%2C%20Pakistan&output=embed",
   googleRating: "4.0",
   googleReviewCount: "819"
 };
